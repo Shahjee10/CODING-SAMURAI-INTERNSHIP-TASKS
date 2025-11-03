@@ -92,8 +92,7 @@ It was completed using **Python** with libraries such as Pandas, Matplotlib, and
 ### 🎯 Objectives
 - Perform **data cleaning** and handle missing values.  
 - Analyze relationships between features like **Age, Gender, Class, and Survival**.  
-- Apply **visualization techniques** to highlight insights.  
-- Demonstrate **encoding techniques** like One-Hot Encoding for categorical data.
+- Apply **visualization techniques** to highlight insights.
 
 ### 🧠 Skills Demonstrated
 - Python (Pandas, NumPy)  
@@ -116,12 +115,9 @@ It was completed using **Python** with libraries such as Pandas, Matplotlib, and
   - Survival rate by gender  
   - Age distribution of passengers  
   - Relationship between passenger class and survival  
-  - Boxplots for age vs class  
+  - Boxplots for age vs class 
 
-#### 4. Feature Engineering
-- Applied **One-Hot Encoding** to convert categorical features (Sex, Embarked) into numerical format for better machine understanding.
-
-#### 5. Statistical Summary
+#### 4. Statistical Summary
 - Explored survival rates using group-based analysis (e.g., by Gender and Class).  
 - Compared key trends using pivot-style summaries.
 
