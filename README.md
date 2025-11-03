@@ -1,7 +1,7 @@
-# 🧠 Coding Samurai Data Analytics Internship Projects
+# 🧠 Coding Samurai Data Science Internship Projects
 
-This repository showcases the projects I completed as part of my **Data Analytics Internship at Coding Samurai**.  
-Each project focuses on applying key **data analysis and visualization skills** using industry tools like **Excel** and **Python (Pandas, Matplotlib, Seaborn)**.
+This repository showcases the projects I completed as part of my **Data Science Internship at Coding Samurai**.  
+Each project focuses on applying key **data science and visualization skills** using industry tools like **Excel** and **Python (Pandas, Matplotlib, Seaborn)**.
 
 ---
 
