@@ -1,36 +1,36 @@
-# 🚴‍♂️ Sales Data Analysis – Coding Samurai Internship Project 1
+# 🧠 Coding Samurai Data Analytics Internship Projects
 
-## 📋 Project Overview
-This project was completed as part of my **Data Analytics Internship at Coding Samurai**.  
-The goal was to perform a **simple data analysis** on a retail-style dataset (Bike Buyers data) using **Microsoft Excel**, focusing on descriptive statistics, data cleaning, and interactive visualizations.
+This repository showcases the projects I completed as part of my **Data Analytics Internship at Coding Samurai**.  
+Each project focuses on applying key **data analysis and visualization skills** using industry tools like **Excel** and **Python (Pandas, Matplotlib, Seaborn)**.
 
 ---
 
-## 🎯 Objectives
-- Clean and organize raw data for better analysis.
-- Perform **basic descriptive analysis** to find trends and insights.
-- Build **interactive PivotTables and charts**.
+## 🚴‍♂️ Project 1: Sales Data Analysis (Excel)
+
+### 📋 Project Overview
+The goal of this project was to perform a **simple data analysis** on a retail-style dataset (Bike Buyers data) using **Microsoft Excel**, focusing on descriptive statistics, data cleaning, and interactive visualizations.
+
+### 🎯 Objectives
+- Clean and organize raw data for better analysis.  
+- Perform **basic descriptive analysis** to find trends and insights.  
+- Build **interactive PivotTables and charts**.  
 - Design a **dashboard** to visualize key metrics effectively.
 
----
-
-## 🧠 Skills Demonstrated
+### 🧠 Skills Demonstrated
 - Data Cleaning & Transformation  
 - Descriptive Analytics  
 - Excel PivotTables & PivotCharts  
 - Dashboard Creation  
 - Data Visualization & Insights Communication  
 
----
-
-## 🗂️ Dataset Details
+### 🗂️ Dataset Details
 **Dataset Name:** Bike Buyers Dataset  
 Each record represents a potential customer with demographic and lifestyle details.
 
 | Column Name | Description |
 |--------------|-------------|
 | ID | Unique Customer ID |
-| Marital Status | Marital status (Married / Single) |
+| Marital Status | Married / Single |
 | Gender | Male / Female |
 | Income | Annual income |
 | Children | Number of children |
@@ -44,70 +44,115 @@ Each record represents a potential customer with demographic and lifestyle detai
 | Age Bracket | Age category (Adolescent, Middle Age, Old) |
 | Purchased Bike | Whether the customer purchased a bike |
 
----
+### ⚙️ Steps Performed
 
-## ⚙️ Steps Performed
+#### 1. Data Cleaning
+- Standardized text values (e.g., converted “M/F” to “Male/Female”).  
+- Added a new column **“Age Bracket”** based on the age range.  
+- Removed inconsistencies and formatted income values.
 
-### 1. Data Cleaning
-- Standardized text values (e.g., converted “M/F” to “Male/Female”).
-- Added new column **“Age Bracket”** based on the age range.
-- Removed inconsistencies and formatted income field.
-
-### 2. Data Analysis
+#### 2. Data Analysis
 Created **three PivotTables** to explore:
-1. **Average Income per Purchase**
-2. **Customer Commute Distance**
-3. **Customer Age Bracket**
+1. Average Income per Purchase  
+2. Customer Commute Distance  
+3. Customer Age Bracket  
 
-### 3. Dashboard Creation
+#### 3. Dashboard Creation
 Built a dynamic **Excel Dashboard** with:
-- PivotCharts linked to the three analyses above.
-- **Slicers** for:
-  - Region  
-  - Marital Status  
-  - Gender  
-These slicers were connected to all PivotTables for synchronized filtering.
+- PivotCharts linked to analyses.  
+- **Slicers** for Region, Marital Status, and Gender.  
+- All slicers synchronized for interactive filtering.
 
----
+### 📊 Key Insights
+- Married individuals showed higher average income levels.  
+- Most short-distance commuters (0–1 miles) didn’t purchase bikes.  
+- The **Middle Age group** (30–50 years) made up the largest buyer segment.  
 
-## 📊 Key Insights
-- Married individuals showed higher average income levels compared to single customers.  
-- Most customers with short commute distances (0–1 miles) were non-purchasers.  
-- The **Middle Age group** (30–50 years) represented the largest buyer segment.  
-
----
-
-## 💡 Tools Used
+### 💡 Tools Used
 - **Microsoft Excel 2016**
   - PivotTables  
   - PivotCharts  
   - Slicers  
   - Conditional Formatting  
 
----
-
-## 🧾 Deliverables
-- Cleaned Dataset (Excel file)
-- PivotTables for analysis
-- Interactive Dashboard (Excel)
-
----
-
-## 🚀 Outcome
+### 🚀 Outcome
 This project enhanced my understanding of:
-- Data analysis workflow from raw data → insights → visualization  
-- Building professional dashboards in Excel  
-- Communicating insights effectively using visuals  
+- Data analysis workflow from raw → insights → visualization  
+- Building professional Excel dashboards  
+- Communicating insights effectively through visuals  
 
 ---
 
-## 📚 Author
+## 🚢 Project 2: Exploratory Data Analysis on Titanic Dataset (Python)
+
+### 📋 Project Overview
+This project involved performing **Exploratory Data Analysis (EDA)** on the **Titanic dataset** to uncover trends and insights related to passenger survival.  
+It was completed using **Python** with libraries such as Pandas, Matplotlib, and Seaborn.
+
+### 🎯 Objectives
+- Perform **data cleaning** and handle missing values.  
+- Analyze relationships between features like **Age, Gender, Class, and Survival**.  
+- Apply **visualization techniques** to highlight insights.  
+- Demonstrate **encoding techniques** like One-Hot Encoding for categorical data.
+
+### 🧠 Skills Demonstrated
+- Python (Pandas, NumPy)  
+- Data Cleaning & Transformation  
+- Exploratory Data Analysis (EDA)  
+- Data Visualization (Matplotlib, Seaborn)  
+- Feature Engineering (One-Hot Encoding)
+
+### ⚙️ Steps Performed
+
+#### 1. Data Understanding
+- Loaded the Titanic dataset and explored its structure using `.info()`, `.describe()`, and `.head()`.
+
+#### 2. Data Cleaning
+- Filled missing values (e.g., mean age for missing ages, mode for embarked values).  
+- Dropped unnecessary columns like PassengerId and Cabin for simplicity.
+
+#### 3. Data Visualization
+- Used **Seaborn and Matplotlib** for visual insights:
+  - Survival rate by gender  
+  - Age distribution of passengers  
+  - Relationship between passenger class and survival  
+  - Boxplots for age vs class  
+
+#### 4. Feature Engineering
+- Applied **One-Hot Encoding** to convert categorical features (Sex, Embarked) into numerical format for better machine understanding.
+
+#### 5. Statistical Summary
+- Explored survival rates using group-based analysis (e.g., by Gender and Class).  
+- Compared key trends using pivot-style summaries.
+
+### 📊 Key Insights
+- Females had a significantly higher survival rate than males.  
+- First-class passengers were more likely to survive than third-class.  
+- Most passengers aged between **20–40 years**.  
+- Missing values in the dataset had noticeable patterns tied to passenger class.
+
+### 💡 Tools Used
+- **Python**  
+  - Pandas  
+  - NumPy  
+  - Matplotlib  
+  - Seaborn  
+
+### 📘 Conclusion
+Through this analysis, I gained practical experience in:
+- Applying EDA methods to real datasets.  
+- Handling missing data and encoding categorical variables.  
+- Building visual stories using Python libraries.
+
+---
+
+## 👨‍💻 Author
 **Syed Ahmed Ali Shah**  
 📧 [ahmedalilm10@gmail.com](mailto:ahmedalilm10@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-shah-b4a458284)   
+🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-shah-b4a458284)  
 🌐 [Portfolio](https://shahjee10.github.io/)
 
 ---
 
 ## 🏷️ Tags
-`#Excel` `#DataAnalytics` `#Dashboard` `#Visualization` `#PivotTables` `#Internship` `#CodingSamurai`
+`#Excel` `#DataAnalytics` `#Dashboard` `#Python` `#EDA` `#Visualization` `#PivotTables` `#Internship` `#CodingSamurai`
