@@ -142,13 +142,65 @@ Through this analysis, I gained practical experience in:
 
 ---
 
+## 🏠 Project 3: Simple Linear Regression on House Prices (Python)
+
+### 📋 Project Overview
+This project demonstrates **Simple Linear Regression** using **Python** to predict **house prices** based on **area (in square feet)**.  
+It focuses on understanding the **linear relationship** between two continuous variables — *Area* and *Price* — using machine learning techniques.
+
+### 🎯 Objectives
+- Understand the concept of **Simple Linear Regression**.  
+- Build and train a regression model using **Scikit-learn**.  
+- Visualize the **relationship between Area and Price**.  
+- Evaluate model accuracy using performance metrics.
+
+### 🧠 Skills Demonstrated
+- Machine Learning (Supervised Learning)  
+- Data Preprocessing  
+- Model Training & Prediction  
+- Data Visualization  
+- Evaluation Metrics Interpretation  
+
+### ⚙️ Steps Performed
+
+#### 1. Data Understanding
+- Loaded a dataset containing **two columns** — *Area* and *Price*.  
+- Explored the dataset using `.head().
+
+#### 2. Data Visualization 
+- Used **Matplotlib** for visualization.
+
+#### 3. Model Building
+- Trained a **Linear Regression model** using `LinearRegression()` from **Scikit-learn**.
+
+#### 4. Model Evaluation
+- Predicted prices on test data.  
+- Plotted the **Regression Line** to visualize actual vs predicted results. 
+
+### 📊 Key Insights
+- Larger areas correspond to higher house prices.  
+- The model fits the dataset accurately with minimal error.
+
+### 💡 Tools Used
+- **Python**
+  - Pandas  
+  - NumPy  
+  - Matplotlib   
+  - Scikit-learn  
+
+### 📘 Conclusion
+This project provided practical experience in applying **Machine Learning regression techniques** for **real estate price prediction**.  
+It solidified my understanding of **data modeling, visualization, and performance evaluation** in a regression context.
+
+---
+
 ## 👨‍💻 Author
 **Syed Ahmed Ali Shah**  
 📧 [ahmedalilm10@gmail.com](mailto:ahmedalilm10@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-shah-b4a458284)  
-🌐 [Portfolio](https://shahjee10.github.io/)
+🌐 [Portfolio](https://shahjee10.github.io/) 
 
 ---
 
 ## 🏷️ Tags
-`#Excel` `#DataAnalytics` `#Dashboard` `#Python` `#EDA` `#Visualization` `#PivotTables` `#Internship` `#CodingSamurai`
+`#Excel` `#DataAnalytics` `#Dashboard` `#Python` `#EDA` `#Visualization` `#Regression` `#MachineLearning` `#Internship` `#CodingSamurai`
